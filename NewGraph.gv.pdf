@@ -1,0 +1,15 @@
+digraph finite_state_machine {
+	rankdir=LR size=8.5
+	node [shape=doublecircle style=filled]
+	"172.31.255.255" [fillcolor="#023FEB"]
+	"192.168.1.5" [fillcolor="#AF0346"]
+	"192.98.78.5" [fillcolor="#97B95F"]
+	"26.99.578.5" [fillcolor="#250A5E"]
+	"12.31.255.255" [fillcolor="#7AD752"]
+	"172.31.255.255" -> "192.168.1.5" [label=qwe color="#023FEB" style=dashed]
+	"172.31.255.255" -> "192.98.78.5" [label=asd color="#023FEB" style=dashed]
+	"12.31.255.255" -> "192.98.78.5" [label=zxc color="#7AD752" style=dashed]
+	"192.98.78.5" -> "26.99.578.5" [label=zxc color="#97B95F" style=dashed]
+	"26.99.578.5" -> "192.98.78.5" [label=zxcd color="#250A5E" style=dashed]
+	"12.31.255.255" -> "26.99.578.5" [label=hfk color="#7AD752" style=dashed]
+}
